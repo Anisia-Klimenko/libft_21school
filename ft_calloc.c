@@ -6,7 +6,7 @@
 /*   By: anisia <anisia@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 11:44:31 by acristin          #+#    #+#             */
-/*   Updated: 2021/10/15 13:23:33 by anisia           ###   ########.fr       */
+/*   Updated: 2021/10/15 18:50:19 by anisia           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,12 +16,11 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*p;
 
-	if (!nmemb || !size)
-		return (0);
-	// p = malloc(sizeof(nmemb) * size);
-	p = malloc(nmemb * size);
+	// if (!nmemb || !size)
+	// 	return (0);
+	p = (void *)malloc(nmemb * size);
 	if (!p)
 		return (0);
-	else
-		return (p);
+	ft_bzero(p, nmemb * size);
+	return (p);
 }
