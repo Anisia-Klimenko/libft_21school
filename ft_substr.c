@@ -6,7 +6,7 @@
 /*   By: acristin <acristin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 11:47:18 by acristin          #+#    #+#             */
-/*   Updated: 2021/10/14 11:47:19 by acristin         ###   ########.fr       */
+/*   Updated: 2021/10/16 18:58:59 by acristin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	*s = ft_substr("42", 0, 0);
-
-// 	printf("%s\n", s);
-// 	printf("%zu\n", ft_strlen(s));
-// 	printf("%lu\n", ft_strlen("tripouille") + 1);
-// 	return (0);
-// }

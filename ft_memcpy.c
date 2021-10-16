@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anisia <anisia@student.42.fr>              +#+  +:+       +#+        */
+/*   By: acristin <acristin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 11:45:45 by acristin          #+#    #+#             */
-/*   Updated: 2021/10/15 18:34:14 by anisia           ###   ########.fr       */
+/*   Updated: 2021/10/16 18:57:59 by acristin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	size_t	i;
 
 	i = 0;
-	// if (!dest || !src || !n)
-	// 	return (0);
 	if (n > 0 && (src || dest))
 	{
 		while (i < n)

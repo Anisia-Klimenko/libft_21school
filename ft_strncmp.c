@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anisia <anisia@student.42.fr>              +#+  +:+       +#+        */
+/*   By: acristin <acristin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 11:47:04 by acristin          #+#    #+#             */
-/*   Updated: 2021/10/15 18:44:27 by anisia           ###   ########.fr       */
+/*   Updated: 2021/10/16 18:58:30 by acristin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,5 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 			return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 		i++;
 	}
-	// if (i == n)
-	// 	return (0);
-	// if (s1[i] != s2[i])
-	// 	return (s1[i] - s2[i]);
 	return (0);
 }

@@ -54,6 +54,6 @@ re		:	fclean all
 # 	$(CC) -fPIC $(CFLAGS) $(SRC)
 # 	gcc -shared -o libft.so $(OBJ)
 
-so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
-	gcc -nostartfiles -shared -o libft.so $(OBJ)
+# so:
+# 	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
+# 	gcc -nostartfiles -shared -o libft.so $(OBJ)

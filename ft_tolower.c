@@ -6,7 +6,7 @@
 /*   By: acristin <acristin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 11:47:21 by acristin          #+#    #+#             */
-/*   Updated: 2021/10/14 11:47:22 by acristin         ###   ########.fr       */
+/*   Updated: 2021/10/16 18:59:09 by acristin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
-
-// int	main(void)
-// {
-// 	printf("%c tolower: %c\n", 'A', ft_tolower('A'));
-// 	return (0);
-// }
